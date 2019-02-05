@@ -31,6 +31,16 @@ the time indicated in column is <b>TotalTime((SetupTime) + EffectiveTime)</b>.
 <br>All the indicated numbers denote seconds.
 </sub>
 
+
+
+<h2>Explanation</h2>
+<h3>Traditional Cassandra Scan</h3>
+<img src="https://github.com/siddv29/cfs/blob/master/images/TraditionalCassandrScan.png"/>
+<h3>CFS</h3>
+<img src="https://github.com/siddv29/cfs/blob/master/images/CFS.png"/>
+<img src="https://github.com/siddv29/cfs/blob/master/images/tokenRangeSplit.png"/>
+
+
 <h3>Sample Program</h3>
 
 ```
@@ -90,9 +100,3 @@ public class Main {
 
 }
 ```
-<h2>Explanation</h2>
-<h3>Traditional Cassandra Scan</h3>
-<img src="https://github.com/siddv29/cfs/blob/master/images/TraditionalCassandrScan.png"/>
-<h3>CFS</h3>
-<img src="https://github.com/siddv29/cfs/blob/master/images/CFS.png"/>
-<img src="https://github.com/siddv29/cfs/blob/master/images/tokenRangeSplit.png"/>
